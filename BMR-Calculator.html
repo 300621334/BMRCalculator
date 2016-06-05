@@ -1,0 +1,123 @@
+﻿<!DOCTYPE HTML>
+<html>
+<!-- Shafiq-Ur-Rehman #300621334 -->
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Assignment-1-BMR</title>
+<link href="BMR.css" rel="stylesheet">
+<style type="text/css">
+.auto-style2 {
+	text-align: center;
+	font-family: "Arial Rounded MT", Arial, Helvetica, sans-serif;;
+}
+</style>
+</head>
+
+<body>
+
+<div id="mainDiv">
+	<div id="text">
+		<h1 class="auto-style2"><span>BMR - Basal Metabolic Rate</span></h1>
+		<p>You use energy no matter what you're doing, even when sleeping. The BMR 
+		Calculator will calculate your <strong>Basal Metabolic Rate (BMR); the number of 
+		calories you'd burn if you stayed in bed all day</strong>.</p>
+		<p>If you've noticed that 
+		every year, it becomes harder to eat whatever you want and stay slim, you've 
+		also learnt that your BMR decreases as you age. Likewise, depriving yourself 
+		of food in hopes of losing weight also decreases your BMR, a foil to your 
+		intentions. However, a regular routine of cardiovascular exercise can increase 
+		your BMR, improving your health and fitness when your body's ability to 
+		burn energy gradually slows down.</p>
+		</div>
+		
+		
+		<h1 class="auto-style2"><span>BMR  Calculator</span></h1>
+	
+	
+	
+	
+		<p id="pBtn"><b>Select Units: </b><button id="unit1">Imperial</button>
+		<button id="unit2">Metric</button></p>
+		
+		
+		
+		
+		<form id="myForm1">
+		
+		<div id="imperialDivBox">
+			<div id="imperialDiv">
+				<p><label for="age">Age</label>
+				<input style="width: 145px;" id="age" type="number" min="0" /> </p><br>
+				<p><label for="feet" style="width: 170px;">Height</label>
+				<input id="feet" min="0" style="width: 50px;" type="number"  /> ft &nbsp;
+				<input id="inches" min="0" style="width: 50px;" type="number"  /> in </p> <br>
+				
+				
+				<p><label for="pounds">Weight </label>
+				<input  min="0" style="width:145px;" id="pounds" type="number" /> lbs </p>
+			</div>
+		</div>
+		<div id="metricDivBox">
+			<div id="metricDiv">
+				<br />
+				<p><label for="ageMet">Age</label>
+				<input min="0" id="ageMet" type="number" /> </p>
+				<br />
+				
+				<p><label for="ht">Height</label>
+				<input min="0" id="ht" type="number" /> cm </p>
+				<br />
+				
+				<p><label for="wt">Weight</label>
+				<input min="0" id="wt" type="number"  /> Kg </p>
+			</div>
+		</div>
+		</form>
+		
+		
+		<!-- Shafiq-Ur-Rehman #300621334 -->
+		
+		<div id="btnGender">
+			<p><b>Select Gender: </b><button id="genderMale">Male</button>
+			<button id="genderFemale">Female</button></p>
+		</div>
+		<!-- Shafiq-Ur-Rehman #300621334 -->
+		
+		
+		
+		<form id="myForm2">
+		<div id="constant">
+			<div id="divInConstant">
+				<h3>&nbsp; &nbsp; Select activity level for modified metabolic rate:</h3>
+				<input id="rad1" name="activity" type="radio" value="1.2">
+				<label for="rad1">Little to no exercise</label><br />
+				<input id="rad2" name="activity" type="radio" value="1.375">
+				<label for="rad2">Light exercise (1–3 days per week)</label><br />
+				<input id="rad3" name="activity" type="radio" value="1.55">
+				<label for="rad3">Moderate exercise (3–5 days per week)</label><br />
+				<input id="rad4" name="activity" type="radio" value="1.725">
+				<label for="rad4">Heavy exercise (6–7 days per week)</label><br />
+				<input id="rad5" name="activity" type="radio" value="1.9">
+				<label for="rad5">Very heavy exercise (twice per day, extra heavy 
+				workouts)</label> </div>
+		</div>
+		</form>
+		
+		
+		
+		
+		<br>		
+		<div id="resultDiv">
+			<p><span id="result"></span></p>
+		</div>
+<hr size="4" color="navy">
+<h6 style="text-align:center;">  <a href="http://studentweb.cencol.ca/shafiqu">HOME</a><br>&copy; Comp-125-003 | Client Side Web Development | Shafiq-Ur-Rehman | 300621334  </h6>
+<hr size="4" color="navy">
+	</div>
+
+<script src="BMR.js"> </script>
+
+
+</body>
+
+</html>
